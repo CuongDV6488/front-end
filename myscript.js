@@ -15,41 +15,41 @@ type = "text/javascript" >
     });
 
 //doitac-slick
-// $('.doitac-container').slick({
+$('.doitac-container').slick({
 
-//     autoplay: true,
-//     dots: false,
-//     infinite: true,
-//     speed: 1000,
-//     autoplaySpeed: 1000,
-//     slidesToShow: 6,
-//     slidesToScroll: 1,
+    autoplay: true,
+    dots: false,
+    infinite: true,
+    speed: 1000,
+    autoplaySpeed: 1000,
+    slidesToShow: 6,
+    slidesToScroll: 1,
 
-//     arrows: false,
-//     responsive: [
-//         {
-//             breakpoint: 1025,
-//             settings: {
-//                 slidesToShow: 5,
-//                 slidesToScroll: 1,
-//             }
-//         },
-//         {
-//             breakpoint: 825,
-//             settings: {
-//                 slidesToShow: 3,
-//                 slidesToScroll: 1
-//             }
-//         },
-//         {
-//             breakpoint: 450,
-//             settings: {
-//                 slidesToShow: 2,
-//                 slidesToScroll: 1
-//             }
-//         }
-//     ]
-// });
+    arrows: false,
+    responsive: [
+        {
+            breakpoint: 1025,
+            settings: {
+                slidesToShow: 5,
+                slidesToScroll: 1,
+            }
+        },
+        {
+            breakpoint: 825,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 450,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        }
+    ]
+});
 
 $(document).ready(function () {
     //dropdown
