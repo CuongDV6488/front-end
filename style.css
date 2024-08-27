@@ -997,6 +997,7 @@ body {
 .doitac h2 {
   color: white;
   text-align: center;
+  margin-bottom: 30px;
 }
 .doitac .doitac-container {
   width: 100%;
@@ -1006,4 +1007,6 @@ body {
 .doitac .doitac-container img {
   margin: 0 20px;
   padding: 5px;
+  height: 120px;
+  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */

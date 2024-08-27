@@ -1147,6 +1147,7 @@ body {
     h2{
         color: white;
         text-align: center;
+        margin-bottom: 30px;
     }
     .doitac-container{
         width: 100%;
@@ -1154,8 +1155,9 @@ body {
         justify-content: space-around;
         img{
             margin: 0 20px;
-            // width: 10px;
             padding:5px;
+            height: 120px;
+            border-radius: 10px;
         }
     }
 }
